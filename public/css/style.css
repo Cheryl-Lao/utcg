@@ -1,3 +1,14 @@
+/* Ubuntu*/
+@font-face
+{
+    font-family : "Ubuntu-R";
+    src: url('Ubuntu-R.tff');
+}
+* {
+	font-family: 'Ubuntu', Ubuntu, sans-serif;
+  src: local('Ubuntu'), url(https://utcg.herokuapp.com/css/fonts/ubuntu.tff), format('tff');
+}
+
 .background {
   background-color: #3b5998;
   border-color: #e7e7e7;
