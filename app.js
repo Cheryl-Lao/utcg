@@ -44,23 +44,33 @@ function handleDisconnect() {
 handleDisconnect();
 
 app.get('/', function(req, res) {
-  res.render('home');
+  res.render('home', {
+    title:'UTCG | Home'
+  });
 })
 
 app.get('/about', function(req, res) {
-  res.render('home');
+  res.render('home', {
+    title:'UTCG | About'
+  });
 })
 
 app.get('/workshops', function(req, res) {
-  res.render('home');
+  res.render('home', {
+    title:'UTCG | Workshops'
+  });
 })
 
 app.get('/gallery', function(req, res) {
-  res.render('home');
+  res.render('home', {
+    title:'UTCG | Gallery'
+  });
 })
 
 app.get('/contact', function(req, res) {
-  res.render('home');
+  res.render('home', {
+    title:'UTCG | Contact'
+  });
 })
 
 const PORT = process.env.PORT || 3000;
