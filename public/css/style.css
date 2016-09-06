@@ -20,3 +20,8 @@ nav li a {
 .navbar-header a{
   color:white;
 }
+
+.content {
+  padding: 1%;
+  padding-left:2%;
+}
