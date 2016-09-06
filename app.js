@@ -47,6 +47,22 @@ app.get('/', function(req, res) {
   res.render('home');
 })
 
+app.get('/about', function(req, res) {
+  res.render('home');
+})
+
+app.get('/workshops', function(req, res) {
+  res.render('home');
+})
+
+app.get('/gallery', function(req, res) {
+  res.render('home');
+})
+
+app.get('/contact', function(req, res) {
+  res.render('home');
+})
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Our app is running on port ${ PORT }`);
