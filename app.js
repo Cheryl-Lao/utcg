@@ -45,7 +45,7 @@ handleDisconnect();
 
 app.get('/', function(req, res) {
   res.render('home', {
-    title:'UTCG | Home',
+    title:'UTCG: Welcome to U of T Computer Graphics Club',
     content: `
     <h1>Welcome to the University of Toronto Computer Graphics Club.</h1>
 
@@ -83,28 +83,28 @@ app.get('/', function(req, res) {
 
 app.get('/about', function(req, res) {
   res.render('home', {
-    title:'UTCG | About',
+    title:'UTCG: About',
     content : ``
   });
 })
 
 app.get('/workshops', function(req, res) {
   res.render('home', {
-    title:'UTCG | Workshops',
+    title:'UTCG: Workshops',
     content : ``
   });
 })
 
 app.get('/gallery', function(req, res) {
   res.render('home', {
-    title:'UTCG | Gallery',
+    title:'UTCG: Gallery',
     content : ``
   });
 })
 
 app.get('/contact', function(req, res) {
   res.render('home', {
-    title:'UTCG | Contact',
+    title:'UTCG: Contact',
     content : ``
   });
 })
