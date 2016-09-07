@@ -81,12 +81,20 @@ app.get('/', function(req, res) {
   });
 })
 
-app.get('/about', function(req, res) {
+app.get('/what-is-utcg', function(req, res) {
   res.render('home', {
-    title:'UTCG: About',
+    title:'What is UTCG?',
     content : ``
   });
 })
+
+app.get('/executives', function(req, res) {
+  res.render('home', {
+    title:'UTCG: Executives',
+    content : ``
+  });
+})
+
 
 app.get('/workshops', function(req, res) {
   res.render('home', {
@@ -95,9 +103,9 @@ app.get('/workshops', function(req, res) {
   });
 })
 
-app.get('/gallery', function(req, res) {
+app.get('/involved', function(req, res) {
   res.render('home', {
-    title:'UTCG: Gallery',
+    title:'UTCG: Get Involved',
     content : ``
   });
 })
