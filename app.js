@@ -71,7 +71,8 @@ app.get('/', function(req, res) {
 
     <h3>About the UTCG Group.</h3>
 
-    <p>We’re a Ulife and UTSU recognized campus group at the University of Toronto. Our main aim is to prove to people how easy it is to learn graphic design, and how applicable it is in all academic disciplines. If you have any suggestions, questions, comments, feedback...email us at communication@utcg.org.
+    <p>We’re a Ulife and UTSU recognized campus group at the University of Toronto. Our main aim is to prove to people how easy it is to learn graphic design, and how applicable it is in all academic disciplines. If you have any suggestions, questions, comments, feedback...email us at <a href='mailto:communication@utcg.org'>communication@utcg.org</a>
+    .
 
     <p>Call us or beep us whenever you want to reach us.
 
