@@ -95,6 +95,12 @@ app.get('/executives', function(req, res) {
   });
 })
 
+app.get('/news', function(req, res) {
+  res.render('home', {
+    title:'UTCG: News',
+    content : ``
+  });
+})
 
 app.get('/workshops', function(req, res) {
   res.render('home', {
