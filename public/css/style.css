@@ -25,3 +25,24 @@ nav li a {
   padding: 1%;
   padding-left:2%;
 }
+
+.footer {
+  background-color: #3b5998;
+  color:white;
+  padding:1.5%;
+  font-size:12px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+.footer-strong{
+  font-size:15px;
+  color:white;
+}
+
+.footer-links a {
+  color:white;
+  padding-right:1%;
+}
