@@ -9,16 +9,19 @@
   src: local('Ubuntu'), url(https://utcg.herokuapp.com/css/fonts/ubuntu.tff), format('tff');
 }
 
-.background {
-  background-color: #3b5998;
-  border-color: #e7e7e7;
-}
 nav li a {
-  color:white;
+  color:#FC6C85;
 }
-
+nav li a:hover{
+  color:#f83261;
+}
+nav li a:active {
+  color:#f83261;
+}
 .navbar-header a{
-  color:white;
+  color:#FC6C85;
+  font-weight:bolder;
+  font-size:32px;
 }
 
 .content {
@@ -27,16 +30,17 @@ nav li a {
 }
 
 .footer {
-  background-color: #3b5998;
-  color:white;
+  color:#FC6C85;
   padding:1%;
   font-size:10px;
-  border: 2px solid white;
+  border-top: 1px solid #FC6C85;
+  border-bottom: 1px solid #FC6C85;
   border-radius:3px;
 }
 
 .footer a {
-  color: white;
+  color:#FC6C85;
+
   text-decoration: underline;
 
 }
@@ -47,6 +51,51 @@ nav li a {
 }
 
 .footer-links a {
-  color:white;
+  color:#FC6C85;
   padding-right:2%;
+}
+
+/* What can I write on facecard? */
+.pink {
+  background-color: #FC6C85;
+  color:white;
+  padding:1%;
+}
+.pink h1 {
+  color: white;
+  text-align:center;
+  font-weight: lighter;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pink h4 {
+  color: white;
+  font-size:25px;
+  text-align:center;
+  font-weight: lighter;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pink i {
+  font-size:90px;
+}
+
+.pink i:hover {
+  color:#f06292;
+}
+.col-md-2{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.appear {
+  font-size:45px;
+  font-weight:lighter;
+}
+.appear2 {
+  font-size:15px;
+  font-weight:lighter;
 }
